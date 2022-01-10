@@ -1,7 +1,7 @@
 <?php
     $server = "localhost";
     $username = "root";
-    $password = "";
+    $password = "root";
     $database = "db_pulpitis";
 
    $conn = mysqli_connect($server, $username, $password, $database);
@@ -11,4 +11,3 @@
   } else {
       echo "Koneksi success";
   } */
-?> 
